@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: url(./space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    padding: 50px 70px;
+    padding-top: 50px;
+}
+
+.header-right {
+    display: flex;
+    font-size: 20px;
+}
+
+.header-left {
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.bar-3 {
+    text-decoration: underline;
+}
+
+.num {
+    font-weight: bolder;
+}
+
+.header-right section {
+    padding: 0 80px 0 28px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.m-body {
+    padding-bottom: 90px;
+    color: #d0d6f9;
+    font-family: 'Barlow Condensed',sans-serif;
+    font-size: 18px;
+    display: flex;
+    position: relative;
+}
+.m-body h1 {
+    padding-right: 150px;
+    text-transform: uppercase;
+}
+#num {
+    font-weight: bold;
+    color: #616476;
+    padding-left: 250px;
+    padding-right: 5px;
+}
+#num-txt{
+    color: white;
+    font-size:20px;
+    font-family:'Barlow Condensed',sans-serif;
+    padding-left: 100px;
+}
+.b-header {
+    display: flex;
+    justify-content: space-around;
+}
+.b-left {
+    padding-left: 350px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.b-right{
+    padding-top: 50px;
+    position: absolute;
+    top: -80px;
+    left: 920px;
+}
+.b-right img{
+    width: 25vw;
+    height: 70vh;
+}
+.h-m {
+    text-align: left;
+    align-items: center;
+    color:#616476;
+    padding: 40px 0 10px 0;
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+}
+.h-s{
+    font-family: 'Bellefair', serif;
+    font-size: 46px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color: white;
+}
+.h-p {
+    padding-left: 8px;
+    padding-bottom: 50px;
+    font-weight: normal;
+}

@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: url(./space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    padding: 50px 70px;
+    padding-top: 50px;
+}
+
+.header-right {
+    display: flex;
+    font-size: 20px;
+}
+
+.header-left {
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.bar-2 {
+    text-decoration: underline;
+}
+
+.num {
+    font-weight: bolder;
+}
+
+.header-right section {
+    padding: 0 80px 0 28px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.m-body {
+    padding-right: 10px;
+    color: #d0d6f9;
+    font-family: 'Barlow Condensed',
+        sans-serif;
+    font-size: 18px;
+}
+
+.m-body h1 {
+    padding-right: 150px;
+    text-transform: uppercase;
+}
+
+#num {
+    font-weight: bold;
+    color: #616476;
+    padding-left: 250px;
+}
+
+img {
+    padding-top: 15px;
+    padding-left: 100px;
+    width: 445px;
+    height: 445px;
+}
+
+.b-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.b-right {
+    padding-right: 125px;
+    font-weight: bold;
+}
+
+.b-right a {
+    padding-right: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.h-m {
+    align-items: left;
+    color: white;
+    padding: 40px 0px 10px 0;
+    font-family: 'Bellefair', serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+}
+.h-p {
+    padding-left: 8px;
+    padding-bottom: 50px;
+}
+.text-area::after {
+    content: "__________________________________________________________";
+}
+
+.footer {
+    display: flex;
+    /* justify-content: ; */
+}
+
+.footer h3,
+p {
+    margin: 0;
+}
+
+.footer h3 {
+    font-size: 16px;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-right: 80px;
+}
+
+.footer p {
+    font-size: 24px;
+    padding-right: 80px;
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+    color: white;
+}

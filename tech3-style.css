@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: url(./space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    padding: 50px 70px;
+    padding-top: 50px;
+}
+
+.header-right {
+    display: flex;
+    font-size: 20px;
+}
+
+.header-left {
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.bar-4 {
+    text-decoration: underline;
+}
+
+#num {
+    font-weight: bold;
+    color: #616476;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+#num-txt {
+    color: white;
+    font-size: 24px;
+    padding-bottom: 40px;
+    word-spacing: 5px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.header-right section {
+    padding: 0 80px 0 28px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.m-body {
+    padding-left: 350px;
+    color: #d0d6f9;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    position: relative;
+}
+
+.m-body div {
+    padding-left: 20px;
+    display: flex;
+}
+
+.m-body div .m-b-left {
+    display: block;
+    margin: 0;
+    margin-right: 80px;
+    line-height: 80px;
+}
+
+.m-b-left {
+    padding-top: 10px;
+}
+
+.com {
+    padding: 20px 26px;
+    margin: 40px 0;
+    font-size: 24px;
+    border: #616476 solid 1px;
+    opacity: 0.8;
+    color: white;
+    border-radius: 75%;
+}
+
+.com-3 {
+    color: black;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    border: whitesmoke 3px solid;
+}
+
+.m-middle {
+    margin: 0;
+    align-content: center;
+    padding-bottom: 80px;
+}
+
+.h-m {
+    text-align: left;
+    align-items: center;
+    color: #d0d6f9;
+    padding: 40px 0 10px 0;
+    font-family: 'Bellefair', serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+}
+
+.h-s {
+    font-family: 'Bellefair', serif;
+    font-size: 54px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color: white;
+}
+
+.h-p {
+    padding-left: 8px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+img {
+    padding-left: 180px;
+    width: 490px;
+    height: 510px;
+    position: absolute;
+    bottom: 100px;
+    left: 950px;
+}
